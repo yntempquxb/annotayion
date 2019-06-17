@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TsetController {
 
     @RequestMapping(value = "test",method = RequestMethod.POST)
-    @WebLog(description = "报案接口开始")
+    @WebLog(description = "接口开始")
     public void test(@RequestBody User user) {
         System.out.println(user.getName() + "start");
     }
