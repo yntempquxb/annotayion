@@ -1,11 +1,5 @@
 package com.lzp.annotation;
 
-/**
- * Created by wangyong
- *
- * @Date: 2019/6/16.
- * @Description:
- */
 import com.google.gson.Gson;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -20,9 +14,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
 
 /**
- * @author 犬小哈 （微信号：小哈学Java）
- * @site www.exception.site
- * @date 2019/2/12
+ * @author wangyong
+ * @date 2019/6/16
  * @time 下午9:19
  * @discription
  **/
